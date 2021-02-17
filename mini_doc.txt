@@ -1,0 +1,28 @@
+################################################
+  Document Scanner OpenCv | Muditya Raghav
+################################################
+
+1. Import opencv and numpy libraries
+2. Import the image path
+3. Read the image
+4. Convert img it into GrayScale
+5. Convert GrayScale Img into Blur
+6. Apply CannyEdge Detector
+7. Define Kernel for Dilate & Erode
+8. Using Dilate function = i = 2 
+9. Using Erode function = i = 1
+10. Copy the original img
+11. Find the contours using the findContours function
+12. Calculate the area
+13. Calculate the perimeter
+14. Calculate the approx using approxPolyDP function
+15. Select the 4 corner area using approxPolyDP
+16. Draw the circle contour on 4 corner
+17. Select/Resize the area of frame 
+18. Define the points = pts1,pts2
+19. Define the matrix = getPerspectiveTransform
+20. Define the imgWarp = wrapPerspective
+21. Resize the img
+22. For print colour = using adaptiveThreshold and bitwise_not
+23. Save the image
+24. Show the image
